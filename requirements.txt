@@ -1,0 +1,16 @@
+# LLM orchestration — LangChain with Anthropic backend (assignment requires LangChain/LlamaIndex)
+langchain>=0.3.0
+langchain-anthropic>=0.3.0
+langchain-core>=0.3.0
+
+# Anthropic SDK (used by langchain-anthropic under the hood)
+anthropic>=0.51.0
+
+# Git repo fetching
+gitpython>=3.1.41
+
+# Data validation for structured LLM output
+pydantic>=2.7.0
+
+# Progress display for multi-file analysis
+tqdm>=4.66.5

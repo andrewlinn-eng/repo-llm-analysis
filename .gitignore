@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+.env
+repos/
+knowledge_output.json
