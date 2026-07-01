@@ -52,7 +52,7 @@ def _format_files(files: List[Dict]) -> str:
 
 class CodeAnalyzer:
     def __init__(self):
-        self.llm = ChatAnthropic(model=MODEL, temperature=0, max_tokens=8192)
+        self.llm = ChatAnthropic(model=MODEL, max_tokens=8192)
         self.parser = JsonOutputParser()
 
     # ------------------------------------------------------------------ public
